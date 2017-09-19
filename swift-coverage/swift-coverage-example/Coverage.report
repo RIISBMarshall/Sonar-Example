@@ -1,0 +1,29 @@
+/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/swift-coverage-example/AppDelegate.swift:
+    1|       |//
+    2|       |//  AppDelegate.swift
+    3|       |//  swift-coverage-example
+    4|       |//
+    5|       |//  Created by Elena Vilchik on 17/08/16.
+    6|       |//  Copyright © 2016 SonarSource. All rights reserved.
+    7|       |//
+    8|       |
+    9|       |import Cocoa
+   10|       |
+   11|       |@NSApplicationMain
+   12|       |class AppDelegate: NSObject, NSApplicationDelegate {
+   13|       |
+   14|       |    @IBOutlet weak var window: NSWindow!
+   15|       |
+   16|       |
+   17|      1|    func applicationDidFinishLaunching(_ aNotification: Notification) {
+   18|      1|        // Insert code here to initialize your application
+   19|      1|    }
+   20|       |
+   21|      0|    func applicationWillTerminate(_ aNotification: Notification) {
+   22|      0|        // Insert code here to tear down your application
+   23|      0|    }
+   24|       |
+   25|       |
+   26|       |}
+   27|       |
+

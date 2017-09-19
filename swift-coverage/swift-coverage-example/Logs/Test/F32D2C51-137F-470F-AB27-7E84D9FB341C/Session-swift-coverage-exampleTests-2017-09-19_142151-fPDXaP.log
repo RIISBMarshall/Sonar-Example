@@ -1,0 +1,136 @@
+14:21:51.388 xcodebuild[82107:972064] Beginning test session swift-coverage-exampleTests-65A072F5-A85B-4ECE-82FF-4D6F4346378D at 2017-09-19 14:21:51.387 with Xcode 8E3004b on target <DVTLocalComputer: 0x7f7fa566b070 (My Mac | x86_64)> (10.12.6 (16G29))
+14:21:51.388 xcodebuild[82107:972064] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-scheme
+swift-coverage-example
+-enableCodeCoverage
+YES
+-derivedDataPath
+.
+clean
+build
+test
+14:21:51.388 xcodebuild[82107:972064] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+14:21:51.390 xcodebuild[82107:972411] Waiting for connection to unix domain socket at /tmp/XCTest-DPEIWR.
+14:21:57.275 xcodebuild[82107:972064] Launch session started.
+14:21:57.276 xcodebuild[82107:972064] Adding console adaptor <IDEConsoleAdaptor: 0x7f7fa2c9f3f0 'target'> for test session 65A072F5-A85B-4ECE-82FF-4D6F4346378D.
+14:21:57.282 xcodebuild[82107:972064] Test process runnable PID is 82387.
+14:21:57.519 xcodebuild[82107:972387] Got a connection (socket 19), closing the listen socket now.
+14:21:57.519 xcodebuild[82107:972387] Setting up the socket transport for a test runner connection at /tmp/XCTest-DPEIWR
+14:21:57.520 xcodebuild[82107:972387] Received connection for test runner session
+14:21:57.520 xcodebuild[82107:972387] Listening for proxy connection request from the test bundle
+14:21:57.520 xcodebuild[82107:972064] Test runner session acquired connection.
+14:21:57.520 xcodebuild[82107:972064] Waiting for test process to launch.
+14:21:57.522 xcodebuild[82107:972412] Handling proxy channel request from test runner
+14:21:57.522 xcodebuild[82107:972412] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+14:21:57.523 xcodebuild[82107:972064] Test runner session successfully initiated.
+14:21:57.516 swift-coverage-example[82387:973106] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Versions/A/XCTest, built with Xcode 0833(8E3002), modified on Thursday, May 11, 2017 at 1:10:43 AM Eastern Daylight Time
+14:21:57.516 swift-coverage-example[82387:973106] XCTest.framework bundle version: 12124
+14:21:57.519 swift-coverage-example[82387:973106] System uptime: 1d 15:05:47
+14:21:57.519 swift-coverage-example[82387:973106] Process arguments: (
+    "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug/swift-coverage-example.app/Contents/MacOS/swift-coverage-example",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+14:21:57.519 swift-coverage-example[82387:973106] Process environment: {
+    "Apple_PubSub_Socket_Render" = "/private/tmp/com.apple.launchd.DM5fZymnmG/Render";
+    COLORFGBG = "7;0";
+    "DYLD_FRAMEWORK_PATH" = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug:/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug:/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/SharedFrameworks";
+    HOME = "/Users/bmarshall";
+    "ITERM_PROFILE" = Default;
+    "ITERM_SESSION_ID" = "w0t0p0:AADB5CAE-7704-436F-812C-51B80F31F94F";
+    LANG = "en_US.UTF-8";
+    "LLVM_PROFILE_FILE" = "/var/folders/tn/9ykk6z5158sgq41hb6svf5ld_n7t_8/T/sonar.swift-coverage-example/1FC9CD44-1FAE-4FE9-BCF3-2906DB9004AE-82107-00008000CDF59B45/%p.profraw";
+    LOGNAME = bmarshall;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    OLDPWD = "/Users/bmarshall/Desktop/sonar-scanning-examples-master";
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/Applications/sonar-scanner-2.8/bin/:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/bmarshall/Library/Android/sdk/platform-tools/";
+    PWD = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example";
+    SHELL = "/bin/bash";
+    SHLVL = 1;
+    "SSH_AUTH_SOCK" = "/private/tmp/com.apple.launchd.UclFgvoZfv/Listeners";
+    TERM = "xterm-256color";
+    "TERM_PROGRAM" = "iTerm.app";
+    "TERM_PROGRAM_VERSION" = "3.0.15";
+    "TERM_SESSION_ID" = "w0t0p0:AADB5CAE-7704-436F-812C-51B80F31F94F";
+    TMPDIR = "/var/folders/tn/9ykk6z5158sgq41hb6svf5ld_n7t_8/T/";
+    USER = bmarshall;
+    XCInjectBundleInto = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug/swift-coverage-example.app/Contents/MacOS/swift-coverage-example";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/tn/9ykk6z5158sgq41hb6svf5ld_n7t_8/T/com.apple.dt.XCTest/65A072F5-A85B-4ECE-82FF-4D6F4346378D/remote-container/tmp/swift-coverage-exampleTests-65A072F5-A85B-4ECE-82FF-4D6F4346378D.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = 0;
+    "_" = "/usr/bin/xcodebuild";
+    "__CF_USER_TEXT_ENCODING" = "0x5553E948:0x0:0x0";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/Build/Intermediates/CodeCoverage/Products/Debug";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/tn/9ykk6z5158sgq41hb6svf5ld_n7t_8/T/sonar.swift-coverage-example/1FC9CD44-1FAE-4FE9-BCF3-2906DB9004AE-82107-00008000CDF59B45/%p.profraw";
+}
+14:21:57.519 swift-coverage-example[82387:973106] Creating unix domain socket, will connect to path /tmp/XCTest-DPEIWR
+14:21:57.519 swift-coverage-example[82387:973106] Verifying path to socket /tmp/XCTest-DPEIWR (length 18)
+14:21:57.519 swift-coverage-example[82387:973106] Connecting to socket
+14:21:57.519 swift-coverage-example[82387:973106] Connected socket 4
+14:21:57.519 swift-coverage-example[82387:973106] Creating transport with socket 4
+14:21:57.519 swift-coverage-example[82387:973106] Creating connection with transport <DTXSocketTransport: 0x7fde1d73db60>
+14:21:57.521 swift-coverage-example[82387:973106] Creating the proxy channel with connection <DTXConnection 0x7fde1d73ed50 : x1>
+14:21:57.522 swift-coverage-example[82387:973106] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+14:21:57.522 swift-coverage-example[82387:973106] <XCTWaiter: 0x7fde1d5f4420> entering wait loop for 30.00s
+14:21:57.523 swift-coverage-example[82387:973133] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+14:21:57.526 swift-coverage-example[82387:973133] _IDE_startExecutingTestPlanWithProtocolVersion:22
+14:21:57.526 swift-coverage-example[82387:973110] <XCTWaiter: 0x7fde1d5f4420>: cancelWaiting
+14:21:57.526 swift-coverage-example[82387:973106] <XCTWaiter: 0x7fde1d5f4420> done waiting
+14:21:57.526 swift-coverage-example[82387:973106] <XCTWaiter: 0x7fde1d5f4420> cleaning up IDE session ready for test plan
+14:21:57.529 xcodebuild[82107:972064] Starting test plan, clearing initialization timeout timer.
+14:21:57.529 swift-coverage-example[82387:973106] Loading test suite...
+14:21:57.538 swift-coverage-example[82387:973106] Finished loading test suite, took 0.010s
+14:21:57.539 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testBundleWillStart:]
+14:21:57.539 swift-coverage-example[82387:973106] Running suite...
+14:21:57.539 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testSuiteWillStart:]
+2017-09-19 14:21:57.436813-0400 swift-coverage-example[82387:973106] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to /var/folders/tn/9ykk6z5158sgq41hb6svf5ld_n7t_8/T/sonar.swift-coverage-example.savedState
+Test Suite 'All tests' started at 2017-09-19 14:21:57.539
+14:21:57.540 xcodebuild[82107:972064] _XCT_testSuite:All tests didStartAt:2017-09-19 18:21:57 +0000
+14:21:57.704 xcodebuild[82107:972412] (LOG ARBITER) Dumping buffered message data; 0 messages.
+14:21:58.334 xcodebuild[82107:972401] (LOG ARBITER) Dumping buffered message data; 0 messages.
+Test Suite 'swift-coverage-exampleTests.xctest' started at 2017-09-19 14:21:57.540
+Test Suite 'swift_coverage_exampleTests' started at 2017-09-19 14:21:57.540
+14:21:57.540 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testSuiteWillStart:]
+14:21:57.541 xcodebuild[82107:972064] _XCT_testSuite:swift-coverage-exampleTests.xctest didStartAt:2017-09-19 18:21:57 +0000
+14:21:57.540 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testSuiteWillStart:]
+14:21:57.541 xcodebuild[82107:972064] _XCT_testSuite:swift_coverage_exampleTests didStartAt:2017-09-19 18:21:57 +0000
+14:21:57.540 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testCaseWillStart:] swift_coverage_exampleTests.swift_coverage_exampleTests testExample
+14:21:57.542 xcodebuild[82107:972064] _XCT_testCaseDidStartForTestClass:swift_coverage_exampleTests.swift_coverage_exampleTests method:testExample
+Test Case '-[swift_coverage_exampleTests.swift_coverage_exampleTests testExample]' started.
+14:21:57.703 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[swift_coverage_exampleTests.swift_coverage_exampleTests testExample]' passed (0.163 seconds).
+14:21:57.704 xcodebuild[82107:972064] _XCT_testCaseDidFinishForTestClass:swift_coverage_exampleTests.swift_coverage_exampleTests method:testExample withStatus:passed duration:0.1628270149230957
+14:21:57.703 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testCaseWillStart:] swift_coverage_exampleTests.swift_coverage_exampleTests testPerformanceExample
+14:21:57.705 xcodebuild[82107:972064] _XCT_testCaseDidStartForTestClass:swift_coverage_exampleTests.swift_coverage_exampleTests method:testPerformanceExample
+Test Case '-[swift_coverage_exampleTests.swift_coverage_exampleTests testPerformanceExample]' started.
+14:21:58.332 swift-coverage-example[82387:973106] -[XCTRunnerIDESession _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+14:21:58.333 xcodebuild[82107:972064] -[XCTTestRunnerSession _XCT_testMethod:ofClass:didMeasureMetric:file:line:]_block_invoke
+/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/swift-coverage-exampleTests/swift_coverage_exampleTests.swift:33: Test Case '-[swift_coverage_exampleTests.swift_coverage_exampleTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 123.448%, values: [0.000006, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+14:21:58.333 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[swift_coverage_exampleTests.swift_coverage_exampleTests testPerformanceExample]' passed (0.629 seconds).
+14:21:58.334 xcodebuild[82107:972064] _XCT_testCaseDidFinishForTestClass:swift_coverage_exampleTests.swift_coverage_exampleTests method:testPerformanceExample withStatus:passed duration:0.6293150186538696
+14:21:58.333 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'swift_coverage_exampleTests' passed at 2017-09-19 14:21:58.333.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.792 (0.793) seconds
+14:21:58.335 xcodebuild[82107:972064] _XCT_testSuite:swift_coverage_exampleTests didFinishAt:2017-09-19 18:21:58 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.7921420335769653 totalDuration:0.7931770086288452
+14:21:58.334 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testSuiteDidFinish:]
+14:21:58.335 xcodebuild[82107:972064] _XCT_testSuite:swift-coverage-exampleTests.xctest didFinishAt:2017-09-19 18:21:58 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.7921420335769653 totalDuration:0.7939440011978149
+14:21:58.334 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'swift-coverage-exampleTests.xctest' passed at 2017-09-19 14:21:58.333.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.792 (0.794) seconds
+14:21:58.335 xcodebuild[82107:972064] _XCT_testSuite:All tests didFinishAt:2017-09-19 18:21:58 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.7921420335769653 totalDuration:0.795261025428772
+14:21:58.334 swift-coverage-example[82387:973106] Finished running suite.
+14:21:58.335 xcodebuild[82107:972064] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+14:21:58.334 swift-coverage-example[82387:973106] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+14:21:58.335 swift-coverage-example[82387:973106] Calling completion.
+14:21:58.335 swift-coverage-example[82387:973106] <XCTWaiter: 0x7fde1d7426e0> entering wait loop for 15.00s
+14:21:58.336 xcodebuild[82107:972064] _finishWithError:(null) didCancel: 0

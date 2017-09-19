@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "262a888b4533a28f40a6b90abb13961c"
+build_time: [559160501, 212034000]
+inputs:
+  "/Users/bmarshall/Desktop/sonar-scanning-examples-master/swift-coverage/swift-coverage-example/swift-coverage-example/AppDelegate.swift": [559159861, 0]
